@@ -18,6 +18,9 @@
         <link href="css/styles.css" rel="stylesheet" />
         <link href="css/scrollbar.css" rel="stylesheet" />
         <link href="css/timeline.css" rel="stylesheet" />
+        <link href="css/headani.css" rel="stylesheet" />
+        <!-- Compiled and minified CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     </head>
     <body id="page-top">
         <!-- Menu Lateral-->
@@ -36,17 +39,20 @@
         <!-- Header-->
         <header class="masthead d-flex align-items-center">
             <div class="container px-4 px-lg-5 text-center">
-                <!--<h1 class="mb-1"></h1>-->
-                <!--<h3 class="mb-5"><em></em></h3>-->
+                <div class="bg"></div>
+                <div class="bg bg2"></div>
+                <div class="bg bg3"></div>
+                <h2 class="">Eu sou a <p style="color: crimson; font-family: 'Leckerli One', cursive;">Rita.</p></h2>
+                <h3 class="mb-5"><em>E este é o meu portfólio.</em></h3>
                 <!--<a class="btn btn-primary btn-xl" href="#about"></a>-->
             </div>
         </header>
         <!-- Sobre Mim-->
-        <section class="content-section bg-dark" id="about">
+        <section class="content-section bg-dark" id="about" style="background-image: url(assets/img/bg-hello.png);">
             <div class="container px-4 px-lg-5 text-center">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-10">
-                        <h2 class="mb-5" style="color: rgb(255, 255, 255);">SOBRE MIM:</h2>
+                        <h2 class="mb-5" style="color: rgb(255, 255, 255); font-family: 'Leckerli One';">Sobre Mim:</h2>
                          <!--<p class="lead mb-5" style="color: rgb(255, 255, 255);">
                             Professora de Língua Inglesa, formada em Sistemas para Internet pela FATEC Lins.
                         </p>-->
@@ -83,11 +89,12 @@
                 </div>
             </div>
         </section>
+
         <!-- Linguagens-->
-        <section class="content-section bg-primary text-white text-center" id="services">
+        <section class="content-section text-white text-center" id="services">
             <div class="container px-4 px-lg-5">
                 <div class="content-section-heading">
-                    <h2 class="mb-5">LINGUAGENS:</h2>
+                    <h2 class="mb-5" style="font-family: 'Leckerli One', cursive;">Linguagens:</h2>
                 </div>
                 <div class="row gx-4 gx-lg-5">
                     <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
@@ -164,11 +171,11 @@
         </section>
 
         <!--Linha do Tempo-->
-        <section class="content-section" style="background: #1abc9c;" id="portfolio">
+        <section class="content-section" style="background: #36f1cce0;" id="portfolio">
                 <div class="container px-4 px-lg-5">
                     <div class="content-section-heading text-center">
                         <h3 class="text-white mb-0">Portfólio</h3>
-                        <h2 class="mb-5">Portfólio Acadêmico</h2>
+                        <h2 class="mb-5" style="font-family: 'Leckerli One', cursive;">Portfólio Acadêmico</h2>
                     </div>
 
 						<section id="cd-timeline" class="cd-container"><!--Faz as configurações de todo o conteúdo da linha do tempo-->                    
@@ -177,11 +184,15 @@
                             </div> <!-- cd-timeline-img -->
                             <div class="cd-timeline-content">
         
-                                <center><h2>1° SEMESTRE </h2><p>Descrição.</p></center>
+                                <center><h2>1° SEMESTRE </h2>
+                                    <div class="h2">Boletim Informativo</div>
+                                    <p>Este trabalho refere-se à matéria do primeiro semestre do ano de 2019 denominada “Criação de Conteúdo na Web”, a qual exibia como finalidade demonstrar conceitos da utilização e exposição correta dos conteúdos em um website.
+                                    <p>Neste projeto, especificadamente, foi solicitado a transformação dos “Boletins Informativos” (espécie de revistas elaboradas pela FATEC de Lins, os quais contém as últimas notícias e acontecimentos, na unidade) que antes eram documentos no formato .pdf em sites; para tal, devia-se utilizar conhecimentos prévios.</p>
+                                    <p>Vale-se ressaltar que os conhecimentos para a elaboração do site desenvolvido provieram, em sua base, de outra disciplina – do mesmo semestre – denominada “Padrões de Projetos de Sítios para Internet”, a qual apresentava o prelúdio das linguagens HTML e CSS, utilizadas para o desenvolvimento do Boletim Informativo Digital.</p></center>
                                         <a class="portfolio-item projects-rec" href="#!">
                                             <div class="caption">
                                                 <div class="caption-content">
-                                                    <div class="h2">Boletim Informativo</div>
+                                                    
                                                     <div class="h2"></div>
                                                     <p class="mb-0"></p>
                                                 </div>
@@ -197,15 +208,18 @@
                             </div> <!-- cd-timeline-img -->
                             <div class="cd-timeline-content">
 
-                                <center><h2>2° SEMESTRE </h2><p>Descrição.</p></center>
+                                <center><h2>2° SEMESTRE </h2>
+                                    <div class="h2">Elaboração do Projeto de Estruturação de uma Rede</div>
+                                    <p>Este projeto faz referência à matéria de Redes e Internet, cursada no segundo semestre de 2019, consistindo em três etapas, onde na primeira há a escolha de uma planta baixa retirada da internet, ou desenhada pelo próprio discente, a fim de que a referida simule uma empresa real, com todos os cômodos, corredores e até mesmo banheiros; devendo ser realizada no tempo hábil de 15 dias, essa etapa tem o peso de 3 pontos, na nota final.
+                                    <p>Já na segunda etapa há a escolha e distribuição dos equipamentos tecnológicos, ou seja, máquinas, switches, roteadores e sala servidora; bem como indicar a passagem correta dos cabos de rede; é válido ressaltar que essa segunda etapa tem o peso de 2 pontos, na nota final, e tem-se 15 dias para realizar a entrega.</p>
+                                    <p>Por fim, na terceira etapa a qual vale 5 pontos da nota final, é necessário a utilização da ferramenta Packet Tracer, para indicar a configuração correta, as quais permeiam entre: IP, Gatway, DNS (se for o caso), bem como a topologia de cada cabo. Tem-se os 5 pontos computados caso o professor availe testes na rede entregue e os computadores estejam devidamente conectados.</p></center>
                                 <a class="portfolio-item projects-rec" href="#!">
                                     <div class="caption">
                                         <div class="caption-content">
-                                            <div class="h2">Cartão de Visitas</div>
                                             <p class="mb-0"></p>
                                         </div>
                                     </div>
-                                    <img class="img-fluid" src="assets/img/portfolio/2sem.jpeg" alt="..." />
+                                    <img class="img-fluid" src="assets/img/portfolio/2semr.png" alt="..." />
                                 </a>
                     </div> <!-- cd-timeline-content -->
                 </div> <!-- cd-timeline-block -->
@@ -215,7 +229,11 @@
                             </div> <!-- cd-timeline-img -->
                             <div class="cd-timeline-content">
         
-                                <center><h2>3° SEMESTRE </h2><p>Acessibilidade na Web</p></center>
+                                <center><h2>3° SEMESTRE </h2>
+                                    <div class="h2">Acessibilidade na Web: Uma Revisão sobre o Tema</div>
+                                    <p>Este projeto foi contabilizado para a obtenção da nota final da disciplina de Acessibilidade, ministrada pelo docente Dr. João Luís Cardoso de Moraes, a qual foi atribuída a máxima (10).
+                                       <p> A proposta para esta incumbência permeava-se na produção de um artigo a partir da leitura dos Fascículos I, II e III – os quais tratam, respectivamente, acerca do tema: “Acessibilidade na Web”, produzidos pela W3C.
+                                    </p></center>
                                     <iframe src="artigo.pdf" width="100%;" style="border: none;"></iframe>
                                     <a class="btn btn-dark" href="artigo.pdf" download="" target="_blank">Download aqui!</a>
                     </div> <!-- cd-timeline-content -->
@@ -245,15 +263,17 @@
                             </div> <!-- cd-timeline-img -->
                             <div class="cd-timeline-content">
         
-                                <center><h2>5° SEMESTRE </h2><p>Plano de Marketing - Ômega.</p></center>
+                                <center><h2>5° SEMESTRE </h2>
+                                    <div class="h2">Plano de Marketing - Ômega</div>
+                                    <p>Este trabalho refere-se à disciplina Negócios e Marketing Eletrônicos, cursadano quinto semestre, no ano de 2021, o qual consistiu em desenvolver um plano de marketing de uma empresa real, com dados reais, a fim de que a partir desse projeto pudesse ser verificado, junto à empresa, melhores maneiras para seu crescimento no mercado; apurando onde estão os pontos positivos e negativos do negócio. 
+                                        <p>O negócio escolhido refere-se à Loja Ômega, instalada há oito anos, no bairro central comercial da cidade de Lins, situado estrategicamente ao local com maior movimentação do chamado “calçadão”. A referida conta com produtos eletrônicos, bem como utilidades domésticas e tecnológicas, é válido ressaltar que a loja, além de ponto de venda é, também, uma assistência técnica para aparelhos e periféricos eletrônicos, a qual foi escolhida devido à proximidade, bem como a facilidade de acesso às informações necessárias.
+                                        </p></center>
                                 <a class="portfolio-item projects-rec" href="#!">
                                     <div class="caption">
                                         <div class="caption-content">
-                                            <div class="h2">Negócios e Marketing Eletrônicos</div>
                                             <p class="mb-0"></p>
                                         </div>
                                     </div>
-                                    <img class="img-fluid" src="assets/img/portfolio/6sem.jpg" alt="..." />
                                 </a>
                                 <iframe src="plano.pdf" width="100%;" style="border: none;"></iframe>
                                 <a class="btn btn-dark" href="plano.pdf" download="" target="_blank">Download aqui!</a>
@@ -276,7 +296,7 @@
             
                                     </div>
                                 </a>
-                                <iframe src="tutorial.pdf" width="100%;" style="border: none;"></iframe>
+                                <iframe src="tutorial.pdf" class="iframe" width="100%;" style="border: none;"></iframe>
                                 <a class="btn btn-dark" href="tutorial.pdf" download="" target="_blank">Download aqui!</a>
         
                     </div> <!-- cd-timeline-content -->
@@ -285,8 +305,50 @@
         </section>
 <!--Fim linha do tempo-->
 
+<!--Trabalhos Complementares-->
+<section class="content-section" style="background-color: violet;">
+    <div class="container px-4 px-lg-5 text-center">
+        <h3 class="text-white mb-0">ESTUDOS COMPLEMENTARES</h3>
+        <h2 class="mb-5" style="font-family: 'Leckerli One', cursive;">Inicializações Científicas</h2>
+
+    <div class="row gx-0">
+
+        <div class="col-lg-4">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">APLICAÇÃO DE ENGENHARIA REVERSA EM BASE DE DADOS GOVERNAMENTAL – CENSO 2010</h5>
+          <h6>Orientador: Fábio Lúcio Meira</h6>
+          <p class="card-text">Este projeto teve como principal objetivo apresentar o desenvolvimento de uma base de dados unificada a partir dos dados gerados pelo Censo Demográfico Brasileiro de 2010, para uso no desenvolvimento de soluções de apoio à tomada de decisões em projetos de inovação social, mais necessariamente, na área de Empreendedorismo Social.</p>
+        </div>
+    </div>
+        </div>
+
+        <div class="col-lg-4">    
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">MATHPODS: A PLATAFORMA PARA O ESTUDO DA MATEMÁTICA ATRAVÉS DE PODCASTS</h5>
+          <h6>Orientador: Adriana de Bortoli</h6>
+          <p class="card-text">Este projeto tratou a respeito da criação de uma plataforma web denominada MathPods a qual objetiva a usabilidade dos Podcasts como ferramenta no ensino da matemática e suas variantes. Pensou-se na adição de um estímulo diferente para o aluno em sala: O Podcast em consonância à plataforma online, a fim de que o discente desfrute de mais um recurso de aprendizagem, utilizando-o dentro e fora do ambiente acadêmico. </p>
+        </div>
+    </div>
+    </div>
+
+    <div class="col-lg-4">
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">IMPLEMENTAÇÃO DO PROXY SQUID PARA GERENCIAMENTO DE ACESSO DO USUÁRIO NA REDE</h5>
+          <h6>Orientador: Alexandre Ponce</h6>
+          <p class="card-text">O desenvolvimento desse trabalho visou a elaboração e implementação de um servidor de controle de acesso do usuário na rede, utilizando-se das tecnologias: SQUID, LDAP e AD, tendo como base o sistema operacional Linux, especificamente o Debian 10.8.0 “Buster”, a fim de demonstrar as vantagens e as adversidades que o gerenciamento através do proxy de navegação web pode acarretar. </p>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</section>
+<!---->
+
 <!-- Call to Action-->
-<section class="content-section text-white" style="background-color:darkslategrey">
+<section class="content-section text-white" style="background: transparent;">
     <div class="container px-4 px-lg-5 text-center">
         <h2 class="mb-4">Tenha acesso ao Trabalho de Conclusão de Curso (TCC) completo através do botão:</h2>
         <a class="btn btn-xl btn-light me-4" href="tcc.pdf" download="" target="_blank">Click aqui!</a>
@@ -298,7 +360,7 @@
             <div class="container px-4 px-lg-5">
                 <div class="content-section-heading text-center">
                     <h3 class="text-white mb-0">Portfólio</h3>
-                    <h2 class="mb-5">Projetos Recentes</h2>
+                    <h2 class="mb-5" style="font-family: 'Leckerli One', cursive;">Projetos Recentes</h2>
                 </div>
                 <!-- Imagem 1-->
                 <div class="row gx-0">
@@ -358,16 +420,18 @@
 
 
         <!-- Call to Action-->
-        <section class="content-section bg-primary text-white" id="curriculo">
+        <section class="content-section text-white" style="background: transparent;" id="curriculo">
             <div class="container px-4 px-lg-5 text-center">
                 <h2 class="mb-4">Para baixar meu currículo:</h2>
                 <a class="btn btn-xl btn-light me-4" href="curriculo.pdf" download="" target="_blank">Click aqui!</a>
             </div>
         </section>
+        
         <!-- Maps-->
         <div class="map" id="contact">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3707.5410352234953!2d-49.751985985259154!3d-21.681704300753523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94be15b9b6068de3%3A0x47d0291859c8b554!2sR.%20Mato%20Grosso%2C%20640%20-%20Vila%20Guararapes%2C%20Lins%20-%20SP%2C%2016403-015!5e0!3m2!1spt-BR!2sbr!4v1631508017932!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
+
         <!-- Footer-->
         <footer class="footer text-center">
             <div class="container px-4 px-lg-5">
@@ -387,9 +451,11 @@
                 <p class="text-muted small mb-0">Copyright &copy; Rita de Cássia 2021</p>
             </div>
         </footer>
+
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <script src="js/contate.js"></script>
     </body>
 </html>
